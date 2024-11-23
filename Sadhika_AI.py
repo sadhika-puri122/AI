@@ -6,6 +6,7 @@ import pytz  # For converting time to Indian Standard Time (IST)
 
 #Setting up google Api key
 google_api_key = st.secrets["general"]["google_api_key"]
+#genai.configure(api_key="AIzaSyB-P4FN4BR3PwKq85qlCumxOT759RSS7nc")
 genai.configure(api_key=google_api_key)
 
 # Model configuration with custom instruction
