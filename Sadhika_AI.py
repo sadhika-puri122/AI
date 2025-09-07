@@ -2,7 +2,7 @@ import streamlit as st           #For creating the web frontend interface
 import google.generativeai as genai   #For integrating Google's generative AI model (Gemini) 
 import sqlite3          # To handle the SQLite database for chat history
 from datetime import datetime  # For timestamping chat messages
-import pytz  # For converting time to Indian Standard Time (IST)rrrrrrrrrrrrrr
+import pytz  # For converting time to Indian Standard Time (IST)
 
 #Setting up google Api key
 google_api_key = st.secrets["general"]["google_api_key"]
